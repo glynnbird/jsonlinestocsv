@@ -1,0 +1,30 @@
+{
+  "name": "jsonlinestocsv",
+  "version": "1.0.0",
+  "description": "JSONL to CSV converter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glynnbird/jsonlinestocsv.git"
+  },
+  "keywords": [
+    "JSON",
+    "CSV"
+  ],
+  "author": "Glynn Bird <glynn.bird@gmail.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/glynnbird/jsonlinestocsv/issues"
+  },
+  "homepage": "https://github.com/glynnbird/jsonlinestocsv#readme",
+  "dependencies": {
+    "jsonpour": "^1.0.2"
+  },
+  "bin": {
+    "jsonlinestocsv": "bin/jsonlinestocsv.bin.js",
+    "jsonltocsv": "bin/jsonlinestocsv.bin.js"
+  }
+}
